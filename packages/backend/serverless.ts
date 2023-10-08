@@ -2,6 +2,7 @@ import type {AWS} from '@serverless/typescript';
 
 import confirmEmail from '@functions/confirm-email';
 import register from "@functions/register";
+import postUserCreated from "@functions/post-user-created";
 
 const serverlessConfiguration: AWS = {
   service: 'poc-atlas-app-services-backend',
@@ -20,11 +21,11 @@ const serverlessConfiguration: AWS = {
     },
   },
   // import the function via paths
-  functions: {confirmEmail, register},
+  functions: {confirmEmail, register, postUserCreated},
   package: {individually: true},
   custom: {
     esbuild: {
-      external: ["realm"],
+      external: ["realm", "mongoose"],
       packager: "yarn",
       bundle: true,
       minify: false,

@@ -1,15 +1,21 @@
-import { StyleSheet, View } from 'react-native';
+import {useState} from "react";
+import {Login} from "./Login";
+import {Home} from "./Home";
+import {AppProvider} from "@realm/react";
+
 
 export default function App() {
-  return (
-    <View>
+  const [page, setPage] = useState("login")
 
-    </View>
+  const onNavigate = (page: string) => {
+    setPage(page);
+  }
+
+  return <AppProvider id={}>
+
+  </AppProvider>
+
+  return (
+    page === "login" ? <Login onNavigate={onNavigate}/> : <Home onNavigate={onNavigate}/>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    
-  },
-});

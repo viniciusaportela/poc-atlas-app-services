@@ -12,6 +12,7 @@
   "dependencies": {
     "@middy/core": "^3.4.0",
     "@middy/http-json-body-parser": "^3.4.0",
+    "mongoose": "^7.6.0",
     "realm": "^12.2.1"
   },
   "devDependencies": {

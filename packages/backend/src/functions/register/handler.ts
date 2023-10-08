@@ -25,7 +25,7 @@ const register: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event
       console.log("missing email or password")
       return formatJSONResponse({
         success: false
-      })
+      }, 412)
     }
 
     await app.emailPasswordAuth.registerUser({email, password});
@@ -37,7 +37,7 @@ const register: ValidatedEventAPIGatewayProxyEvent<typeof schema> = async (event
     console.log(e)
     return formatJSONResponse({
       success: false
-    })
+    }, 500)
   }
 }
 

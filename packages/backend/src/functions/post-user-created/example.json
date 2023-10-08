@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "5834cfdc-267e-467b-880d-78f94c03c50c",
+      "receiptHandle": "AQEB/u5WH61GrAkLANShvd22tGsKnAtxXni7CjCesgAJMsu+np0kPF+72UFXfv/wB3nAY/uuH/h+03qtlCcvFwQKew+Nme+DCDhOGgz9gIJE6/NuawrORtasxHeRo/JtuzoJCFYa7AS4ny0AgqUrQ7uj/7NXQF6WtHG7VLTGFOAIcpf1bIXQHf3zNUFdX1l5Osk6y7CBGCJY/m1okpxFVGHjX0TPLh+xTR+rrNeqhg/9K7YstlCyJw4NEdYbpk5WwDx3UGg8Vv6QVtiC66LXVjpFAeivpzQ1fdoT8EzMFrUdNarz82Zgj1W/DBmWTu/NbeBvU0cUqx/hBwKIJTxeXYQBL51RM3uBHVbDt0CBC/K5QL8dYGKO3vGNHcM3sHHdorWg7ldzRyO1DBffz2ZpHfgdpQ==",
+      "body": "{\"version\":\"0\",\"id\":\"46769505-51c3-742d-8c84-c080677c78db\",\"detail-type\":\"MongoDB Authentication Trigger\",\"source\":\"aws.partner/mongodb.com/stitch.trigger/65218cdafafa5535e54ca01d\",\"account\":\"778544830980\",\"time\":\"2023-10-08T16:05:49Z\",\"region\":\"us-east-1\",\"resources\":[\"arn:aws:events:us-east-1::event-source/aws.partner/mongodb.com/stitch.trigger/65218cdafafa5535e54ca01d\"],\"detail\":{\"user\":{\"id\":\"6522d35cce04ea3b07d97cb0\",\"type\":\"normal\",\"custom_data\":{},\"data\":{\"email\":\"test@gmail.com\"},\"identities\":[{\"id\":\"6522d35cce04ea3b07d97caa\",\"provider_type\":\"local-userpass\"}]},\"time\":\"2023-10-08T16:05:49.05119407Z\",\"operationType\":\"CREATE\",\"providers\":[\"local-userpass\"]}}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1696781149796",
+        "SenderId": "AIDAJXNJGGKNS7OSV23OI",
+        "ApproximateFirstReceiveTimestamp": "1696781149804"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "4ac25236251abe36be1ed1a7349dd0d8",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:778544830980:on-user-created-queue",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}
