@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "634862992590",
+    "project_id": "simpx-game-do-9a30d",
+    "storage_bucket": "simpx-game-do-9a30d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634862992590:android:79df5285105b4040bae49f",
+        "android_client_info": {
+          "package_name": "net.simpx.pocatlasappservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634862992590-kap26ftecmlp5jkdv5qhmejee2jg79ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.simpx.pocatlasappservices",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf8DWQcvLi0k4u6iqL1FaMZsprKDqQK-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634862992590-a0do24it5uamif48ghjqu2tno0nqcliv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
